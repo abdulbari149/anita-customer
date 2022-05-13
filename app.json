@@ -1,0 +1,55 @@
+{
+  "expo": {
+    "name": "Anita Delivery",
+    "slug": "anita-delivery-customer",
+    "privacy": "unlisted",
+    "platforms": ["ios", "android"],
+    "version": "1.1.105",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "primaryColor": "#008800",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "delivery.anita.customer",
+      "buildNumber": "1.1.25",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "We need to know where you're located so that you can order from local shops in your area."
+      },
+      "config": {
+        "googleMapsApiKey": "AIzaSyD7k99okJtXuwReIuGicYB1VU_lide4Kw8"
+      }
+    },
+    "android": {
+      "package": "delivery.anita.customer",
+      "versionCode": 33,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyD7k99okJtXuwReIuGicYB1VU_lide4Kw8"
+        }
+      },
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "hooks": {
+      "postPublish": [
+        {
+          "file": "sentry-expo/upload-sourcemaps",
+          "config": {
+            "organization": "anita-delivery",
+            "project": "anita-customer",
+            "authToken": "2eb66e46eb9c4116a45626f3814fe7cc0a3e127cab7540c4875387313801d4b1"
+          }
+        }
+      ]
+    }
+  }
+}

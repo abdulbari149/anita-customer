@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "198611791934",
+    "project_id": "anita-delivery",
+    "storage_bucket": "anita-delivery.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:198611791934:android:d8b1e7faa11c68a524a16f",
+        "android_client_info": {
+          "package_name": "delivery.anita.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "198611791934-130dhsjm239pduvrorpe6sl6ui9qcut1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7k99okJtXuwReIuGicYB1VU_lide4Kw8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "198611791934-130dhsjm239pduvrorpe6sl6ui9qcut1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
